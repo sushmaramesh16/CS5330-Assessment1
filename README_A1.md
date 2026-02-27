@@ -3,15 +3,12 @@
 **Northeastern University — Spring 2026**
 **Sushma Ramesh**
 
----
-
 ## Video Presentation
 [▶️ Watch the full presentation here](https://drive.google.com/file/d/1q012V2e1oq-aTj5iyOq9XE3IemhIrv_b/view?usp=drive_link)
 
 > **Duration:** ~10 minutes
 > **Format:** Narrated slide presentation covering CIE-Luv and CIE-Lab color spaces
 
----
 
 ## Topic Overview
 **Assigned Topic:** Color Spaces — Explain CIE-Luv and CIE-Lab: their intent, design, and appropriate uses.
@@ -23,7 +20,6 @@ The central question this presentation answers is:
 
 The answer lies in **perceptual uniformity** — the idea that equal numerical distances in a color space should correspond to equal perceived differences by the human visual system. XYZ fails this criterion. CIE-Luv and CIE-Lab, both standardized by the CIE in 1976, were designed specifically to address this failure.
 
----
 
 ## Presentation Structure
 
@@ -77,40 +73,36 @@ Recaps the key ideas:
 - CIE-Luv and CIE-Lab were the 1976 solutions
 - Both share L* lightness; they differ in chromaticity encoding
 
----
 
 ## Files in This Repository
 
 | File | Description |
 |------|-------------|
 | `README.md` | This file — overview, structure, reflection, acknowledgements |
-| `slides.pdf` | PDF export of the full slide deck used in the presentation |
+| `CV__ASSESSMENT__1.pdf` | PDF export of the full slide deck used in the presentation |
 
----
 
 ## Reflection
+For this assessment, I was assigned CIE-Luv and CIE-Lab color spaces. I structured the presentation around the core problem these spaces solve, which is perceptual non-uniformity in XYZ, and built from motivation to concept to application, using MacAdam Ellipses, Delta E, and a skin detection example to make the content relevant to a computer vision audience. The most challenging part was clearly distinguishing Luv from Lab, which I resolved using a simple rule of thumb: Luv for emissive/display color, Lab for surface/CV tasks.
 
-For this assessment, I was assigned CIE-Luv and CIE-Lab color spaces. I structured the presentation around the core problem these spaces solve — perceptual non-uniformity in XYZ — and built from motivation to concept to application, using MacAdam Ellipses, Delta E, and a skin detection example to make the content relevant to a computer vision audience. The most challenging part was clearly distinguishing Luv from Lab, which I resolved using a simple rule of thumb: Luv for emissive/display color, Lab for surface/CV tasks.
 
----
-
-## Acknowledgements
-
-### Course Context
-This presentation was created for CS 5330: Computer Vision and Pattern Recognition at Northeastern University's Khoury College of Computer Sciences, Spring 2026.
-
-### Resources Used
-- CIE 1976 official documentation and technical reports
-- Wikipedia articles on CIELUV and CIELAB (used for formula verification and historical context)
-- MacAdam, D.L. (1942). "Visual sensitivities to color differences in daylight." *Journal of the Optical Society of America* — referenced for the MacAdam Ellipses diagram
-- Fairchild, M.D. *Color Appearance Models* — referenced for perceptual uniformity concepts
-- Course lecture slides, topic outlines, and readings from CS 5330
+## Acknowledgements 
+I used CIE 1976 documentation, Wikipedia articles on CIELUV and CIELAB, MacAdam (1942) for the ellipses diagram, Fairchild's Color Appearance Models for perceptual uniformity concepts, and CS 5330 course materials throughout this presentation.
 
 ### LLM Usage
-I used **Claude (Anthropic)** as a learning and production aid during this project in the following specific way:
+I used **Claude (Anthropic)** as a learning and production aid during this project in the following ways:
 
 **Concept verification** — To verify my understanding of the mathematical formulas for L*, u*, v*, a*, and b* and confirm that my explanations were technically accurate before including them in slides
 
----
+**Slide structure and wording** — To help organize the flow of the presentation and refine the clarity of written explanations on slides, while ensuring all technical content remained my own understanding
 
-*Submitted to Gradescope for CS 5330 Assessment #1 — Spring 2026*
+**README drafting** — To assist in structuring and wording this README document
+
+In all cases, I used Claude as an aid to support my own learning and communication, not as a replacement for understanding the material.
+
+
+## Optional: YouTube Channel Consent
+
+I **consent** to having my video posted on the course's non-commercial YouTube channel, if selected. I understand this is completely optional and has no impact on my grade.
+
+
