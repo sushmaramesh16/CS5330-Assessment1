@@ -4,7 +4,7 @@
 **Sushma Ramesh**
 
 ## Video Presentation
-[▶️ Watch the full presentation here](https://drive.google.com/file/d/1q012V2e1oq-aTj5iyOq9XE3IemhIrv_b/view?usp=drive_link)
+[▶️ Watch the full presentation here](https://drive.google.com/file/d/1io1x5Lg6W-l0ohCI0a51enj3gGy1kSxh/view)
 
 > **Duration:** ~10 minutes
 > **Format:** Narrated slide presentation covering CIE-Luv and CIE-Lab color spaces
@@ -104,5 +104,3 @@ In all cases, I used Claude as an aid to support my own learning and communicati
 ## Optional: YouTube Channel Consent
 
 I **consent** to having my video posted on the course's non-commercial YouTube channel, if selected. I understand this is completely optional and has no impact on my grade.
-
-
